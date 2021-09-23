@@ -1,3 +1,4 @@
+import random
 rand_word =['colorful','comb','neighborly','dangerous','arm','quixotic','superb','omniscient','whine','broken','valuable','fat','examine',
 'canvas',
 'applaud'
@@ -198,3 +199,5 @@ rand_word =['colorful','comb','neighborly','dangerous','arm','quixotic','superb'
 'pointless',
 'excellent',
 'knowledgeable']
+guess = random.choice(rand_word)
+rand_word_length = len(guess)
